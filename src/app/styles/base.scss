@@ -7,30 +7,3 @@ html {
 	box-sizing: border-box;
 }
 
-@font-face {
-	font-family: 'Open Sans';
-	src: url('../fonts/OpenSans-Regular.ttf');
-	font-weight: 400;
-}
-@font-face {
-	font-family: 'Open Sans';
-	src: url('../fonts/OpenSans-Bold.ttf');
-	font-weight: 700;
-}
-@font-face {
-	font-family: 'SF Pro Text';
-	src: url('../fonts/SFProText-Regular.ttf');
-	font-weight: 400;
-}
-@font-face {
-	font-family: 'Inter';
-	src: url('../fonts/Inter-Regular.ttf');
-	font-weight: 400;
-}
-
-body {
-	font-family: 'SF Pro text';
-	font-weight: 400;
-	overflow: hidden;
-
-}

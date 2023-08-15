@@ -3,7 +3,7 @@ import botAvatar from '@/icons/bot-avatar.svg';
 import userAvatar from '@/icons/my-avatar.svg';
 import { IMessage } from './IMessage';
 
-const Message = ({ userMessage, status, value }: IMessage) => {
+const Message = ({ userMessage, value }: IMessage) => {
 	if (userMessage) {
 		return (
 			<div className={styles.userMessage}>

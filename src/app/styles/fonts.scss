@@ -1,45 +1,29 @@
 @font-face {
-	font-family: 'Overpass';
-	src:
-		url('@/shared/assets/fonts/Overpass/Overpass-Regular.woff2') format('woff2'),
-		url('@/shared/assets/fonts/Overpass/Overpass-Regular.woff') format('woff');
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans-Regular.ttf');
 	font-weight: 400;
-	font-style: normal;
-	font-display: 'swap';
 }
 
 @font-face {
-	font-family: 'Overpass';
-	src:
-		url('@/shared/assets/fonts/Overpass/static/Overpass-Bold.woff2') format('woff2'),
-		url('@/shared/assets/fonts/Overpass/static/Overpass-Bold.woff') format('woff');
+	font-family: 'Open Sans';
+	src: url('../fonts/OpenSans-Bold.ttf');
 	font-weight: 700;
-	font-style: normal;
-	font-display: 'swap';
 }
 
 @font-face {
-	font-family: 'Overpass';
-	src:
-		url('@/shared/assets/fonts/Overpass/static/Overpass-Italic.woff2') format('woff2'),
-		url('@/shared/assets/fonts/Overpass/static/Overpass-Italic.woff') format('woff');
+	font-family: 'SF Pro Text';
+	src: url('../fonts/SFProText-Regular.ttf');
 	font-weight: 400;
-	font-style: italic;
-	font-display: 'swap';
 }
 
 @font-face {
-	font-family: 'Overpass';
-	src:
-		url('@/shared/assets/fonts/Overpass/static/Overpass-BoldItalic.woff2') format('woff2'),
-		url('@/shared/assets/fonts/Overpass/static/Overpass-BoldItalic.woff') format('woff');
-	font-weight: 700;
-	font-style: italic;
-	font-display: 'swap';
+	font-family: 'Inter';
+	src: url('../fonts/Inter-Regular.ttf');
+	font-weight: 400;
 }
 
 body {
-	font-family: 'Overpass', 'Arial', sans-serif;
-	line-height: 1.5;
+	font-family: 'SF Pro text';
 	font-weight: 400;
+	overflow: hidden;
 }
