@@ -56,7 +56,7 @@ const Chat = () => {
 
 			setMessages((prev) => [...prev, newMessage]);
 		} catch (error) {
-			console.error('Error fetching chunks:', error);
+			//
 		}
 	};
 
