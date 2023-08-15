@@ -6,7 +6,9 @@ const App = () => {
 	return (
 		<BrowserRouter>
 			<Routes>
-				<Route path='/test-chat/' index element={<Chat />} />
+				<Route path='ker4ik13.github.io/'>
+					<Route path='test-chat' index element={<Chat />} />
+				</Route>
 			</Routes>
 		</BrowserRouter>
 	);
