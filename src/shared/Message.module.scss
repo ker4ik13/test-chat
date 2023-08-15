@@ -1,0 +1,76 @@
+@import '@/app/styles/vars';
+
+@-webkit-keyframes userMessageAnimate {
+	0% {
+		transform: translate(700px, 0);
+	}
+
+	100% {
+		transform: translate(0, 0);
+	}
+}
+
+@-webkit-keyframes botMessageAnimate {
+	0% {
+		transform: translate(-700px, 0);
+	}
+
+	100% {
+		transform: translate(0, 0);
+	}
+}
+
+.userMessage {
+	width: 100%;
+	height: auto;
+	display: flex;
+	gap: 13px;
+	align-items: flex-start;
+	justify-content: flex-end;
+	align-self: flex-end;
+	-webkit-animation: userMessageAnimate .5s;
+	animation: userMessageAnimate .5s;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+
+.userText {
+	font-family: 'SF Pro Text';
+	font-size: 18px;
+	background-color: $blue;
+	color: $white;
+	border-radius: 28px;
+	padding: 12px 20px;
+	max-width: 400px;
+	cursor: text;
+}
+
+.avatar {
+	max-width: 40px;
+	width: 100%;
+}
+
+.message {
+	width: 100%;
+	height: auto;
+	display: flex;
+	gap: 13px;
+	align-items: flex-start;
+	justify-content: flex-start;
+	align-self: flex-start;
+	-webkit-animation: botMessageAnimate .5s;
+	animation: botMessageAnimate .5s;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+
+.text {
+	font-family: 'SF Pro Text';
+	font-size: 18px;
+	background-color: $light-blue;
+	color: #000;
+	border-radius: 28px;
+	padding: 12px 20px;
+	max-width: 400px;
+	cursor: text;
+}
